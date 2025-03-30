@@ -1,0 +1,62 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+isiArmorDescription,items,item,,,A bundle containing the title armor and some useful mods,,,,,,,,,,,,,
+
+isiPrimitiveArmorBundle,items,item,,,ISI Primitive Armor Bundle,,,,,,,,,,,,,
+isiLumberjackArmorBundle,items,item,,,ISI Lumberjack Armor Bundle,,,,,,,,,,,,,
+isiPreacherArmorBundle,items,item,,,ISI Preacher Armor Bundle,,,,,,,,,,,,,
+isiRogueArmorBundle,items,item,,,ISI Rogue Armor Bundle,,,,,,,,,,,,,
+isiAthleticArmorBundle,items,item,,,ISI Athletic Armor Bundle,,,,,,,,,,,,,
+isiEnforcerArmorBundle,items,item,,,ISI Enforcer Armor Bundle,,,,,,,,,,,,,
+isiFarmerArmorBundle,items,item,,,ISI Farmer Armor Bundle,,,,,,,,,,,,,
+isiBikerArmorBundle,items,item,,,ISI Biker Armor Bundle,,,,,,,,,,,,,
+isiScavengerArmorBundle,items,item,,,ISI Scavenger Armor Bundle,,,,,,,,,,,,,
+isiRangerArmorBundle,items,item,,,ISI Ranger Armor Bundle,,,,,,,,,,,,,
+isiCommandoArmorBundle,items,item,,,ISI Commando Armor Bundle,,,,,,,,,,,,,
+isiAssassinArmorBundle,items,item,,,ISI Assassin Armor Bundle,,,,,,,,,,,,,
+isiMinerArmorBundle,items,item,,,ISI Miner Armor Bundle,,,,,,,,,,,,,
+isiNomadArmorBundle,items,item,,,ISI Nomad Armor Bundle,,,,,,,,,,,,,
+isiNerdArmorBundle,items,item,,,ISI Nerd Armor Bundle,,,,,,,,,,,,,
+isiRaiderArmorBundle,items,item,,,ISI Raider Armor Bundle,,,,,,,,,,,,,
+
+isiMeleeModsBundle,items,item,,,ISI Melee Mods Bundle,,,,,,,,,,,,,
+isiMeleeModsBundleDescription,items,item,,,A bundle containing all melee mods,,,,,,,,,,,,,
+
+isiRangedModsBundle,items,item,,,ISI Ranged Mods Bundle,,,,,,,,,,,,,
+isiRangedModsBundleDescription,items,item,,,A bundle containing all ranged mods,,,,,,,,,,,,,
+
+isiMeleeWeaponDescription,items,item,,,"A bundle containing the title weapon, related perk books, and some useful mods",,,,,,,,,,,,,
+
+isiMacheteBundle,items,item,,,ISI Machete Bundle,,,,,,,,,,,,,
+isiClubBundle,items,item,,,ISI Club Bundle,,,,,,,,,,,,,
+isiStunBatonBundle,items,item,,,ISI Stun Baton Bundle,,,,,,,,,,,,,
+isiSpearBundle,items,item,,,ISI Spear Bundle,,,,,,,,,,,,,
+isiSledgehammerBundle,items,item,,,ISI Sledgehammer Bundle,,,,,,,,,,,,,
+isiKnucklesBundle,items,item,,,ISI Knuckles Bundle,,,,,,,,,,,,,
+
+isiRangedWeaponDescription,items,item,,,"A bundle containing the title weapon, related perk books, some useful mods, and some ammo",,,,,,,,,,,,,
+
+isiSMG5Bundle,items,item,,,ISI SMG-5 Bundle,,,,,,,,,,,,,
+isiDesertVultureBundle,items,item,,,ISI Desert Vulture Bundle,,,,,,,,,,,,,
+isiPumpShotgunBundle,items,item,,,ISI Pump Shotgun Bundle,,,,,,,,,,,,,
+isiAutoShotgunBundle,items,item,,,ISI Auto Shotgun Bundle,,,,,,,,,,,,,
+isiSniperRifleBundle,items,item,,,ISI Sniper Rifle Bundle,,,,,,,,,,,,,
+isiM60Bundle,items,item,,,ISI M60 Bundle,,,,,,,,,,,,,
+isiRocketLauncherBundle,items,item,,,ISI Rocket Launcher Bundle,,,,,,,,,,,,,
+isiCompoundBowBundle,items,item,,,ISI Compound Bow Bundle,,,,,,,,,,,,,
+isiCompoundCrossbowBundle,items,item,,,ISI Compound Crossbow Bundle,,,,,,,,,,,,,
+
+isiExplosivesBundle,items,item,,,ISI Explosives Bundle,,,,,,,,,,,,,
+isiExplosivesBundleDescription,items,item,,,A bundle containing explosives for horde night,,,,,,,,,,,,,
+
+isiFoodBundle,items,item,,,ISI Food and Drinks Bundle,,,,,,,,,,,,,
+isiFoodBundleDescription,items,item,,,A bundle containing food and drinks for horde night,,,,,,,,,,,,,
+
+isiMedicalBundle,items,item,,,ISI Meds and Drugs Bundle,,,,,,,,,,,,,
+isiMedicalBundleDescription,items,item,,,A bundle containing meds and drugs for horde night,,,,,,,,,,,,,
+
+isiRepairBundle,items,item,,,ISI Repair Bundle,,,,,,,,,,,,,
+isiRepairBundleDescription,items,item,,,A bundle containing repair materials for horde night,,,,,,,,,,,,,
+
+isiHordeNightBundle,items,item,,,ISI Horde Night Bundle,,,,,,,,,,,,,
+isiHordeNightBundleDescription,items,item,,,A bundle of supplies to simplify preparing to test new horde bases,,,,,,,,,,,,,

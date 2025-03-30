@@ -1,0 +1,587 @@
+<IronSharkInc>
+
+    <!-- root bundle -->
+    <append xpath="//items">
+        <item name="isiBundle">
+            <property name="Extends" value="noteTestersDelightAdmin"/>
+            <property name="CreativeMode" value="Dev"/>
+             <!-- orange -->
+            <property name="CustomIconTint" value="f58231"/>
+            <property class="Action0">
+                <!-- placeholder to make sure nothing is acciedentally carried over -->
+                <property name="Create_item" value="resourcePaper"/>
+		        <property name="Create_item_count" value="0"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- armor bundles -->
+    <append xpath="//items">
+
+        <item name="isiPrimitiveArmorBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="armorPrimitiveHelmet"/>
+            <property name="DescriptionKey" value="isiArmorDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots"/>
+                <property name="Create_item_count" value="6,6,6,6"/>
+                <!-- Add mods separately so they don't get overridden -->
+                <property name="Random_item" value="modArmorHelmetLight,modArmorQuadStoragePocket,modArmorDoubleStoragePocket"/>
+                <property name="Random_item_count" value="1,4,2"/>
+                <property name="Random_count" value="3"/>
+                <property name="Unique_random_only" value="true"/>
+            </property>
+        </item>
+
+        <item name="isiLumberjackArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorLumberjackHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorLumberjackHelmet,armorLumberjackOutfit,armorLumberjackGloves,armorLumberjackBoots"/>
+            </property>
+        </item>
+
+        <item name="isiPreacherArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorPreacherHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorPreacherHelmet,armorPreacherOutfit,armorPreacherGloves,armorPreacherBoots"/>
+            </property>
+        </item>
+
+        <item name="isiRogueArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorRogueHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorRogueHelmet,armorRogueOutfit,armorRogueGloves,armorRogueBoots"/>
+            </property>
+        </item>
+
+        <item name="isiAthleticArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorAthleticHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorAthleticHelmet,armorAthleticOutfit,armorAthleticGloves,armorAthleticBoots"/>
+            </property>
+        </item>
+
+        <item name="isiEnforcerArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorEnforcerHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorEnforcerHelmet,armorEnforcerOutfit,armorEnforcerGloves,armorEnforcerBoots"/>
+            </property>
+        </item>
+
+        <item name="isiFarmerArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorFarmerHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorFarmerHelmet,armorFarmerOutfit,armorFarmerGloves,armorFarmerBoots"/>
+            </property>
+        </item>
+
+        <item name="isiBikerArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorBikerHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorBikerHelmet,armorBikerOutfit,armorBikerGloves,armorBikerBoots"/>
+            </property>
+        </item>
+
+        <item name="isiScavengerArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorScavengerHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorScavengerHelmet,armorScavengerOutfit,armorScavengerGloves,armorScavengerBoots"/>
+            </property>
+        </item>
+
+        <item name="isiRangerArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorRangerHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorRangerHelmet,armorRangerOutfit,armorRangerGloves,armorRangerBoots"/>
+            </property>
+        </item>
+
+        <item name="isiCommandoArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorCommandoHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorCommandoHelmet,armorCommandoOutfit,armorCommandoGloves,armorCommandoBoots"/>
+            </property>
+        </item>
+
+        <item name="isiAssassinArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorAssassinHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots"/>
+            </property>
+        </item>
+
+        <item name="isiMinerArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorMinerHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorMinerHelmet,armorMinerOutfit,armorMinerGloves,armorMinerBoots"/>
+            </property>
+        </item>
+
+        <item name="isiNomadArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorNomadHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorNomadHelmet,armorNomadOutfit,armorNomadGloves,armorNomadBoots"/>
+            </property>
+        </item>
+
+        <item name="isiNerdArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorNerdHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorNerdHelmet,armorNerdOutfit,armorNerdGloves,armorNerdBoots"/>
+            </property>
+        </item>
+
+        <item name="isiRaiderArmorBundle">
+            <property name="Extends" value="isiPrimitiveArmorBundle"/>
+            <property name="CustomIcon" value="armorRaiderHelmet"/>
+            <property class="Action0">
+                <property name="Create_item" value="armorRaiderHelmet,armorRaiderOutfit,armorRaiderGloves,armorRaiderBoots"/>
+            </property>
+        </item>
+
+    </append>
+
+    <!-- mod bundles -->
+    <append xpath="//items">
+
+        <!-- 
+            modGunBarrelExtender
+            modGunMuzzleBrake
+            modGunSoundSuppressorSilencer
+            modGunLaserSight
+            modGunFlashlight
+            modGunScopeSmall
+            modGunScopeMedium
+            modGunScopeLarge
+            modGunReflexSight
+            modGunTriggerGroupSemi
+            modGunTriggerGroupBurst3
+            modGunTriggerGroupAutomatic
+            modGunBipod
+            modGunForegrip
+            modGunRetractingStock
+            modShotgunSawedOffBarrel
+            modGunDuckbill
+            modGunChoke
+            modGunMagazineExtender
+            modGunDrumMagazineExtender
+            modGunShotgunTubeExtenderMagazine
+            modGunCrippleEm
+            modGunBowPolymerString
+            modGunBowArrowRest
+
+            modGunMeleeTheHunter
+            modGunMeleeRadRemover
+
+            modMeleeTemperedBlade
+            modMeleeSerratedBlade
+            modMeleeWeightedHead
+            modMeleeStructuralBrace
+            modMeleeErgonomicGrip
+            modMeleeFortifyingGrip
+            modMeleeClubBarbedWire
+            modMeleeClubMetalSpikes
+            modMeleeClubMetalChain
+            modMeleeClubBurningShaft
+            modMeleeFiremansAxeMod
+            modMeleeGraveDigger
+            modMeleeBunkerBuster
+            modMeleeIronBreaker
+            modMeleeWoodSplitter
+            modMeleeDiamondTip
+            modMeleeStunBatonRepulsor
+
+            modFuelTankSmall
+            modFuelTankLarge
+
+            modArmorBandolier
+            modRadiationReady
+            modArmorInsulatedLiner
+            modArmorCoolingMesh
+            modArmorImprovedFittings
+            modArmorCustomizedFittings
+            modArmorPlatingBasic
+            modArmorPlatingReinforced
+            modArmorStoragePocket
+            modArmorDoubleStoragePocket
+            modArmorTripleStoragePocket
+            modArmorQuadStoragePocket
+            modArmorMuffledConnectors
+            modArmorAdvancedMuffledConnectors
+            modArmorImpactBracing
+            modArmorStealthBoots
+            modArmorWaterPurifier
+            modArmorHelmetLight
+            modArmorCigar
+            modArmorPerception
+            modArmorStrength
+            modArmorFortitude
+            modArmorAgility
+            modArmorIntellect
+            modArmorTreasureHunter
+            modArmorNightVision
+        -->
+        
+        <item name="isiMeleeModsBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleMeleeMods"/>
+            <property name="DescriptionKey" value="isiMeleeModsBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="modGunMeleeTheHunter,modGunMeleeRadRemover,modMeleeTemperedBlade,modMeleeSerratedBlade,modMeleeWeightedHead,modMeleeStructuralBrace,modMeleeErgonomicGrip,modMeleeFortifyingGrip,modMeleeClubBarbedWire,modMeleeClubMetalSpikes,modMeleeClubMetalChain,modMeleeClubBurningShaft,modMeleeFiremansAxeMod,modMeleeGraveDigger,modMeleeBunkerBuster,modMeleeIronBreaker,modMeleeWoodSplitter,modMeleeDiamondTip,modMeleeStunBatonRepulsor"/>
+                <property name="Create_item_count" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+            </property>
+        </item>
+
+        <item name="isiRangedModsBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleRangedMods"/>
+            <property name="DescriptionKey" value="isiRangedModsBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="modGunBarrelExtender,modGunMuzzleBrake,modGunSoundSuppressorSilencer,modGunLaserSight,modGunFlashlight,modGunScopeSmall,modGunScopeMedium,modGunScopeLarge,modGunReflexSight,modGunTriggerGroupSemi,modGunTriggerGroupBurst3,modGunTriggerGroupAutomatic,modGunBipod,modGunForegrip,modGunRetractingStock,modShotgunSawedOffBarrel,modGunDuckbill,modGunChoke,modGunMagazineExtender,modGunDrumMagazineExtender,modGunShotgunTubeExtenderMagazine,modGunCrippleEm,modGunBowPolymerString,modGunBowArrowRest,modGunMeleeTheHunter,modGunMeleeRadRemover"/>
+                <property name="Create_item_count" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+            </property>
+        </item>
+
+    </append>
+
+    <!-- melee weapon bundles -->
+    <append xpath="//items">
+        <!-- melee weapons -->
+        <item name="isiMacheteBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
+            <property name="DescriptionKey" value="isiMeleeWeaponDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeWpnBladeT3Machete,
+                    modMeleeClubBurningShaft,modMeleeSerratedBlade,modGunMeleeRadRemover,modMeleeFortifyingGrip"/>
+                <property name="Create_item_count" value="6"/>
+                <!-- Add mods separately so they don't get overridden -->
+                <property name="Random_item" value="isiMeleeModsBundle"/>
+                <property name="Random_item_count" value="1"/>
+                <property name="Random_count" value="1"/>
+                <property name="Unique_random_only" value="true"/>
+            </property>
+        </item>
+
+        <item name="isiClubBundle">
+            <property name="Extends" value="isiMacheteBundle"/>
+            <property name="CustomIcon" value="meleeWpnClubT3SteelClub"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeWpnClubT3SteelClub,
+                    bookBatterUpBigHits,bookBatterUpStealingBases,bookBatterUpSlowPitch,bookBatterUpKnockdown,bookBatterUpMaintenance,bookBatterUpFoulBalls,bookBatterUpMetalChain,
+                    modMeleeClubBurningShaft,modMeleeClubMetalChain,modMeleeWeightedHead,modMeleeErgonomicGrip"/>
+                <property name="Create_item_count" value="6"/>
+            </property>
+        </item>
+
+        <item name="isiStunBatonBundle">
+            <property name="Extends" value="isiMacheteBundle"/>
+            <property name="CustomIcon" value="meleeWpnBatonT2StunBaton"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeWpnBatonT2StunBaton,
+                    bookTechJunkie1Damage,bookTechJunkie2Maintenance,bookTechJunkie3APAmmo,bookTechJunkie4Shells,bookTechJunkie5Repulsor,bookTechJunkie6BatonCharge,bookTechJunkie7Hydraulics,
+                    modMeleeStunBatonRepulsor,modMeleeWeightedHead,modGunMeleeRadRemover,modMeleeFortifyingGrip"/>
+                <property name="Create_item_count" value="6"/>
+            </property>
+        </item>
+
+        <item name="isiSpearBundle">
+            <property name="Extends" value="isiMacheteBundle"/>
+            <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeWpnSpearT3SteelSpear,
+                    bookSpearHunter1Damage,bookSpearHunter2Maintenance,bookSpearHunter3Bleed,bookSpearHunter4KillMove,bookSpearHunter5RapidStrike,bookSpearHunter6PenetratingShaft,bookSpearHunter7QuickStrike,
+                    modMeleeClubBurningShaft,modMeleeSerratedBlade,modGunMeleeRadRemover,modMeleeErgonomicGrip"/>
+                <property name="Create_item_count" value="6"/>
+            </property>
+        </item>
+
+        <item name="isiSledgehammerBundle">
+            <property name="Extends" value="isiMacheteBundle"/>
+            <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeWpnSledgeT3SteelSledgehammer,
+                    modMeleeClubBurningShaft,modMeleeWeightedHead,modGunMeleeRadRemover,modMeleeErgonomicGrip"/>
+                <property name="Create_item_count" value="6"/>
+            </property>
+        </item>
+
+        <item name="isiKnucklesBundle">
+            <property name="Extends" value="isiMacheteBundle"/>
+            <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeWpnKnucklesT3SteelKnuckles,
+                    bookBarBrawling1BasicMoves,bookBarBrawling2DropABomb,bookBarBrawling3KillerInstinct,bookBarBrawling4FinishingMoves,bookBarBrawling5AdrenalineHealing,bookBarBrawling6RageMode,bookBarBrawling7BoozedUp,
+                    modGunMeleeRadRemover,modMeleeStructuralBrace,modMeleeWeightedHead,modMeleeErgonomicGrip"/>
+                <property name="Create_item_count" value="6"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- ranged weapon bundles -->
+    <append xpath="//items">
+        <!-- ranged weapons -->
+        <item name="isiSMG5Bundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="gunHandgunT3SMG5"/>
+            <property name="DescriptionKey" value="isiRangedWeaponDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunHandgunT3SMG5,ammo9mmBulletBall,
+                    bookPistolPeteTakeAim,bookPistolPeteSwissKnees,bookPistolPeteSteadyHand,bookPistolPeteMaintenance,bookPistolPeteHPAmmo,bookPistolPeteAPAmmo,bookPistolPeteDamage,
+                    modGunDrumMagazineExtender,modGunCrippleEm,modGunMeleeRadRemover,modGunTriggerGroupAutomatic"/>
+                <property name="Create_item_count" value="6,600"/>
+                <!-- Add mods separately so they don't get overridden -->
+                <property name="Random_item" value="isiRangedModsBundle"/>
+                <property name="Random_item_count" value="1"/>
+                <property name="Random_count" value="1"/>
+                <property name="Unique_random_only" value="true"/>
+            </property>
+        </item>
+
+        <item name="isiDesertVultureBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunHandgunT3DesertVulture"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunHandgunT3DesertVulture,ammo44MagnumBulletBall,
+                    bookEnforcerDamage,bookEnforcerApparel,bookEnforcerPunks,bookEnforcerIntimidation,bookEnforcerAPAmmo,bookEnforcerHPAmmo,bookEnforcerCriminalPursuit,
+                    modGunCrippleEm,modGunMeleeRadRemover,modGunReflexSight,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,600"/>
+            </property>
+        </item>
+
+        <item name="isiPumpShotgunBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunShotgunT2PumpShotgun"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunShotgunT2PumpShotgun,ammoShotgunShell,
+                    bookShotgunMessiahDamage,bookShotgunMessiahBreachingSlugs,bookShotgunMessiahLimbShot,bookShotgunMessiahSlugs,bookShotgunMessiahMaintenance,bookShotgunMessiahMagazine,bookShotgunMessiahPartyStarter,
+                    modGunShotgunTubeExtenderMagazine,modGunMeleeRadRemover,modGunReflexSight,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,600"/>
+            </property>
+        </item>
+
+        <item name="isiAutoShotgunBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunShotgunT3AutoShotgun"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunShotgunT3AutoShotgun,ammoShotgunShell,
+                    bookShotgunMessiahDamage,bookShotgunMessiahBreachingSlugs,bookShotgunMessiahLimbShot,bookShotgunMessiahSlugs,bookShotgunMessiahMaintenance,bookShotgunMessiahMagazine,bookShotgunMessiahPartyStarter,
+                    modGunDrumMagazineExtender,modGunTriggerGroupAutomatic,modGunReflexSight,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,600"/>
+            </property>
+        </item>
+
+        <item name="isiSniperRifleBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunRifleT3SniperRifle,ammo762mmBulletBall,
+                    bookSniperDamage,bookSniperCripplingShot,bookSniperHeadShot,bookSniperReload,bookSniperControlledBreathing,bookSniperAPAmmo,bookSniperHPAmmo,
+                    modGunBipod,modGunBarrelExtender,modGunScopeLarge,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,600"/>
+            </property>
+        </item>
+
+        <item name="isiM60Bundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunMGT3M60"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunMGT3M60,ammo762mmBulletBall,
+                    bookAutoWeaponsDamage,bookAutoWeaponsUncontrolledBurst,bookAutoWeaponsMaintenance,bookAutoWeaponsDrumMag,bookAutoWeaponsRecoil,bookAutoWeaponsRagdoll,bookAutoWeaponsMachineGuns,
+                    modGunDrumMagazineExtender,modGunForegrip,modGunReflexSight,modGunMeleeRadRemover"/>
+                <property name="Create_item_count" value="6,600"/>
+            </property>
+        </item>
+
+        <item name="isiRocketLauncherBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunExplosivesT3RocketLauncher"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunExplosivesT3RocketLauncher,ammoRocketHE,ammoRocketFrag,
+                    modGunFlashlight,modGunBarrelExtender,modGunMeleeRadRemover,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,20,20"/>
+            </property>
+        </item>
+
+        <item name="isiCompoundBowBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunBowT3CompoundBow"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunBowT3CompoundBow,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding,
+                    bookRangersArrowRecovery,bookRangersExplodingBolts,bookRangersCripplingShot,bookRangersAPAmmo,bookRangersFlamingArrows,bookRangersForestGuide,bookRangersKnockdown,
+                    modGunBowPolymerString,modGunBowArrowRest,modGunMeleeTheHunter,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,150,150,75"/>
+            </property>
+        </item>
+
+        <item name="isiCompoundCrossbowBundle">
+            <property name="Extends" value="isiSMG5Bundle"/>
+            <property name="CustomIcon" value="gunBowT3CompoundCrossbow"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    gunBowT3CompoundCrossbow,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding,
+                    bookRangersArrowRecovery,bookRangersExplodingBolts,bookRangersCripplingShot,bookRangersAPAmmo,bookRangersFlamingArrows,bookRangersForestGuide,bookRangersKnockdown,
+                    modGunBowPolymerString,modGunScopeMedium,modGunBipod,modGunCrippleEm"/>
+                <property name="Create_item_count" value="6,150,150,75"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- (test) ammo bundle -->
+    <!-- <append xpath="//items">
+        <item name="isiAmmoBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleAmmo"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,
+                    ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,
+                    ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,
+                    ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug,
+                    ammoRocketHE,ammoRocketFrag,
+                    ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,
+                    ammoArrowFlaming,ammoArrowExploding,
+                    ammoCrossbowBoltStone,ammoCrossbowBoltIron,ammoCrossbowBoltSteelAP,
+                    ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding
+                "/>
+                <property name="Create_item_count" value="
+                    300,300,300,
+                    300,300,300,
+                    150,150,150,
+                    150,150,150,
+                    20,20,
+                    150,150,150,
+                    150,75,
+                    150,150,150,
+                    150,75
+                "/>
+            </property>
+        </item>
+    </append> -->
+
+    <!-- explosive bundles -->
+    <append xpath="//items">
+        <item name="isiExplosivesBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleExplosives"/>
+            <property name="DescriptionKey" value="isiExplosivesBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="thrownGrenade,thrownAmmoMolotovCocktail"/>
+                <property name="Create_item_count" value="25,20"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- food and drink bundle -->
+    <append xpath="//items">
+        <item name="isiFoodBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleFood"/>
+            <property name="DescriptionKey" value="isiFoodBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    foodSpaghetti,
+                    drinkJarPureMineralWater"/>
+                <property name="Create_item_count" value="
+                    10,
+                    10"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- meds and drugs bundle -->
+    <append xpath="//items">
+        <item name="isiMedicalBundle">
+            <property name="Extends" value="isiBundle"/>
+            <!-- 
+                cntAmbulanceTruck01, 
+                cntPillCaseClosed, 
+                medicalFirstAidBandage, medicalFirstAidKit,
+                modArmorFortitude
+            -->
+            <property name="CustomIcon" value="cntPillCaseClosed"/>
+            <property name="DescriptionKey" value="isiMedicalBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    medicalFirstAidBandage,medicalFirstAidKit,medicalSplint,medicalPlasterCast,
+                    drugVitamins,drugPainkillers,drugRecog,drugFortBites"/>
+                <property name="Create_item_count" value="
+                    5,5,5,5,
+                    10,10,10,10"/>
+            </property>
+        </item>
+    </append>
+    
+    <!-- repairs bundle -->
+    <append xpath="//items">
+        <item name="isiRepairBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleTools"/>
+            <property name="DescriptionKey" value="isiRepairBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeToolRepairT3Nailgun,
+                    resourceRepairKit,
+                    frameShapes:VariantHelper,
+                    resourceForgedSteel,resourceConcreteMix,resourceCobblestones,resourceWood,
+                    resourceElectricParts,resourceForgedIron"/>
+                <property name="Create_item_count" value="
+                    6,
+                    25,
+                    500,
+                    500,1000,1000,1000,
+                    1000,500"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- day 7000 horde night bundle -->
+    <append xpath="//items">
+        <item name="isiHordeNightBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="bundleDartTrap"/>
+            <property name="DescriptionKey" value="isiHordeNightBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    giveXP_T300_admin,
+                    isiPreacherArmorBundle,
+                    isiClubBundle,
+                    isiM60Bundle,
+                    isiExplosivesBundle,
+                    isiFoodBundle,
+                    isiMedicalBundle,
+                    isiRepairBundle"/>
+                <property name="Create_item_count" value="1"/>
+            </property>
+        </item>
+    </append>
+
+</IronSharkInc>

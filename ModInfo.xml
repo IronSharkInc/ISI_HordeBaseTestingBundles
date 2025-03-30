@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="ISI-HordeBaseTestingBundles" />
+	<DisplayName value="ISI Horde Base Testing Bundles" />
+	<Version value="1.3.0.0" />
+	<Description value="Adds bundles that simplify preparing to test new horde bases on horde night" />
+	<Author value="IronSharkInc" />
+	<Website value="https://github.com/IronSharkInc" />
+</xml>
