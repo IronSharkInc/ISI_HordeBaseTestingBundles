@@ -52,7 +52,7 @@ For example, if you would like the bundle to include the lumberjack armor instea
 
 To change the mods, ammo, or books included in the bundles, you can edit the appropriate bundle in the same file.
 
-For example, if you wanted to replace the club bundles Metal Chain mod with the Metal Spikes mod the you would replace `modMeleeClubMetalChain` with `modMeleeClubMetalSpikes` in the `isiClubBundle` item.
+For example, if you wanted to replace the Club bundle's Metal Chain mod with the Metal Spikes mod then you would replace `modMeleeClubMetalChain` with `modMeleeClubMetalSpikes` in the `isiClubBundle` item.
 
 ```xml
 <item name="isiClubBundle">
@@ -70,4 +70,4 @@ For example, if you wanted to replace the club bundles Metal Chain mod with the 
 
 PS: Please note that if you add, remove, or change the order of items in `Create_item` you may need to update `Create_item_count` as well. If a value has not been specified then it will default to 1 of the item in the corresponding slot.
 
-PPS: While `Create_item_count` usually refers to the number of items, for some items (like armor pieces and weapons) it refers to the quality of the item. In those situations the only way to add additional pieices is to list the item again.
+PPS: While `Create_item_count` usually refers to the number of items, for some items (like armor pieces and weapons) it refers to the quality of the item. In those situations the only way to add additional pieces is to list the item again.
