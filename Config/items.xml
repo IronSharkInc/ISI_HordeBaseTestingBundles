@@ -8,7 +8,7 @@
              <!-- orange -->
             <property name="CustomIconTint" value="f58231"/>
             <property class="Action0">
-                <!-- placeholder to make sure nothing is acciedentally carried over -->
+                <!-- placeholder to make sure nothing is accidentally carried over -->
                 <property name="Create_item" value="resourcePaper"/>
 		        <property name="Create_item_count" value="0"/>
             </property>
