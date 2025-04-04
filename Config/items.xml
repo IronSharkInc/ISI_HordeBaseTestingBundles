@@ -260,7 +260,7 @@
 
     <!-- melee weapon bundles -->
     <append xpath="//items">
-        <!-- melee weapons -->
+
         <item name="isiMacheteBundle">
             <property name="Extends" value="isiBundle"/>
             <property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
@@ -340,14 +340,15 @@
 
     <!-- ranged weapon bundles -->
     <append xpath="//items">
-        <!-- ranged weapons -->
+
         <item name="isiSMG5Bundle">
             <property name="Extends" value="isiBundle"/>
             <property name="CustomIcon" value="gunHandgunT3SMG5"/>
             <property name="DescriptionKey" value="isiRangedWeaponDescription"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunHandgunT3SMG5,ammo9mmBulletBall,
+                    gunHandgunT3SMG5,
+                    ammo9mmBulletBall,
                     bookPistolPeteTakeAim,bookPistolPeteSwissKnees,bookPistolPeteSteadyHand,bookPistolPeteMaintenance,bookPistolPeteHPAmmo,bookPistolPeteAPAmmo,bookPistolPeteDamage,
                     modGunDrumMagazineExtender,modGunCrippleEm,modGunMeleeRadRemover,modGunTriggerGroupAutomatic"/>
                 <property name="Create_item_count" value="6,600"/>
@@ -364,7 +365,8 @@
             <property name="CustomIcon" value="gunHandgunT3DesertVulture"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunHandgunT3DesertVulture,ammo44MagnumBulletBall,
+                    gunHandgunT3DesertVulture,
+                    ammo44MagnumBulletBall,
                     bookEnforcerDamage,bookEnforcerApparel,bookEnforcerPunks,bookEnforcerIntimidation,bookEnforcerAPAmmo,bookEnforcerHPAmmo,bookEnforcerCriminalPursuit,
                     modGunCrippleEm,modGunMeleeRadRemover,modGunReflexSight,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,600"/>
@@ -376,7 +378,8 @@
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunShotgunT2PumpShotgun,ammoShotgunShell,
+                    gunShotgunT2PumpShotgun,
+                    ammoShotgunShell,
                     bookShotgunMessiahDamage,bookShotgunMessiahBreachingSlugs,bookShotgunMessiahLimbShot,bookShotgunMessiahSlugs,bookShotgunMessiahMaintenance,bookShotgunMessiahMagazine,bookShotgunMessiahPartyStarter,
                     modGunShotgunTubeExtenderMagazine,modGunMeleeRadRemover,modGunReflexSight,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,600"/>
@@ -388,7 +391,8 @@
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunShotgunT3AutoShotgun,ammoShotgunShell,
+                    gunShotgunT3AutoShotgun,
+                    ammoShotgunShell,
                     bookShotgunMessiahDamage,bookShotgunMessiahBreachingSlugs,bookShotgunMessiahLimbShot,bookShotgunMessiahSlugs,bookShotgunMessiahMaintenance,bookShotgunMessiahMagazine,bookShotgunMessiahPartyStarter,
                     modGunDrumMagazineExtender,modGunTriggerGroupAutomatic,modGunReflexSight,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,600"/>
@@ -400,7 +404,8 @@
             <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunRifleT3SniperRifle,ammo762mmBulletBall,
+                    gunRifleT3SniperRifle,
+                    ammo762mmBulletBall,
                     bookSniperDamage,bookSniperCripplingShot,bookSniperHeadShot,bookSniperReload,bookSniperControlledBreathing,bookSniperAPAmmo,bookSniperHPAmmo,
                     modGunBipod,modGunBarrelExtender,modGunScopeLarge,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,600"/>
@@ -412,7 +417,8 @@
             <property name="CustomIcon" value="gunMGT3M60"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunMGT3M60,ammo762mmBulletBall,
+                    gunMGT3M60,
+                    ammo762mmBulletBall,
                     bookAutoWeaponsDamage,bookAutoWeaponsUncontrolledBurst,bookAutoWeaponsMaintenance,bookAutoWeaponsDrumMag,bookAutoWeaponsRecoil,bookAutoWeaponsRagdoll,bookAutoWeaponsMachineGuns,
                     modGunDrumMagazineExtender,modGunForegrip,modGunReflexSight,modGunMeleeRadRemover"/>
                 <property name="Create_item_count" value="6,600"/>
@@ -424,7 +430,8 @@
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunExplosivesT3RocketLauncher,ammoRocketHE,ammoRocketFrag,
+                    gunExplosivesT3RocketLauncher,
+                    ammoRocketHE,ammoRocketFrag,
                     modGunFlashlight,modGunBarrelExtender,modGunMeleeRadRemover,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,20,20"/>
             </property>
@@ -435,7 +442,8 @@
             <property name="CustomIcon" value="gunBowT3CompoundBow"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunBowT3CompoundBow,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding,
+                    gunBowT3CompoundBow,
+                    ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding,
                     bookRangersArrowRecovery,bookRangersExplodingBolts,bookRangersCripplingShot,bookRangersAPAmmo,bookRangersFlamingArrows,bookRangersForestGuide,bookRangersKnockdown,
                     modGunBowPolymerString,modGunBowArrowRest,modGunMeleeTheHunter,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,150,150,75"/>
@@ -447,7 +455,8 @@
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    gunBowT3CompoundCrossbow,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding,
+                    gunBowT3CompoundCrossbow,
+                    ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding,
                     bookRangersArrowRecovery,bookRangersExplodingBolts,bookRangersCripplingShot,bookRangersAPAmmo,bookRangersFlamingArrows,bookRangersForestGuide,bookRangersKnockdown,
                     modGunBowPolymerString,modGunScopeMedium,modGunBipod,modGunCrippleEm"/>
                 <property name="Create_item_count" value="6,150,150,75"/>
@@ -522,10 +531,8 @@
         <item name="isiMedicalBundle">
             <property name="Extends" value="isiBundle"/>
             <!-- 
-                cntAmbulanceTruck01, 
                 cntPillCaseClosed, 
-                medicalFirstAidBandage, medicalFirstAidKit,
-                modArmorFortitude
+                medicalFirstAidBandage, medicalFirstAidKit
             -->
             <property name="CustomIcon" value="cntPillCaseClosed"/>
             <property name="DescriptionKey" value="isiMedicalBundleDescription"/>
@@ -559,6 +566,112 @@
                     500,
                     500,1000,1000,1000,
                     1000,500"/>
+            </property>
+        </item>
+    </append>
+
+    <!-- electricity bundles -->
+    <append xpath="//items">
+        
+        <item name="isiSolarCellBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="solarCell"/>
+            <property name="DescriptionKey" value="isiSolarCellBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    isiSolarCellBundle,
+                    solarCell,solarCell,solarCell,solarCell,solarCell,solarCell
+                "/>
+                <property name="Create_item_count" value="
+                    1,
+                    6,6,6,6,6,6
+                "/>
+            </property>
+        </item>
+
+        <item name="isiBatteryBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="carBattery"/>
+            <property name="DescriptionKey" value="isiBatteryBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    isiBatteryBundle,
+                    carBattery,carBattery,carBattery,carBattery,carBattery,carBattery
+                "/>
+                <property name="Create_item_count" value="
+                    1,
+                    6,6,6,6,6,6
+                "/>
+            </property>
+        </item>
+
+        <item name="isiEngineBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="smallEngine"/>
+            <property name="DescriptionKey" value="isiEngineBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="isiEngineBundle,smallEngine"/>
+                <property name="Create_item_count" value="1,6"/>
+            </property>
+        </item>
+
+        <!-- combo -->
+        <item name="isiElectricityBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="meleeToolWireTool"/>
+            <property name="DescriptionKey" value="isiElectricityBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    meleeToolWireTool,
+                    isiSolarCellBundle,
+                    isiBatteryBundle,
+                    isiEngineBundle,
+                    ammoGasCan
+                "/>
+                <property name="Create_item_count" value="
+                    1,
+                    1,
+                    1,
+                    1,
+                    10000
+                "/>
+            </property>
+        </item>
+    </append>
+
+    <!-- trap restock -->
+    <append xpath="//items">
+        
+        <!-- Dart Trap -->
+        <item name="isiDartBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="ammoDartIron"/>
+            <property name="DescriptionKey" value="isiDartBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="isiDartBundle,ammoDartIron"/>
+                <property name="Create_item_count" value="1,1500"/>
+            </property>
+        </item>
+
+        <!-- Shotgun Auto Turret -->
+        <item name="isiShotgunShellBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="ammoShotgunShell"/>
+            <property name="DescriptionKey" value="isiShotgunShellBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="isiShotgunShellBundle,ammoShotgunShell"/>
+                <property name="Create_item_count" value="1,450"/>
+            </property>
+        </item>
+
+        <!-- SMG Auto Turret -->
+        <item name="isi9mmBundle">
+            <property name="Extends" value="isiBundle"/>
+            <property name="CustomIcon" value="ammo9mmBulletBall"/>
+            <property name="DescriptionKey" value="isi9mmBundleDescription"/>
+            <property class="Action0">
+                <property name="Create_item" value="isi9mmBundle,ammo9mmBulletBall"/>
+                <property name="Create_item_count" value="1,900"/>
             </property>
         </item>
     </append>

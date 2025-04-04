@@ -58,5 +58,26 @@ isiMedicalBundleDescription,items,item,,,A bundle containing meds and drugs for 
 isiRepairBundle,items,item,,,ISI Repair Bundle,,,,,,,,,,,,,
 isiRepairBundleDescription,items,item,,,A bundle containing repair materials for horde night,,,,,,,,,,,,,
 
+isiSolarCellBundle,items,item,,,ISI Infinite Solar Cells Bundle,,,,,,,,,,,,,
+isiSolarCellBundleDescription,items,item,,,An infinite bundle of 6 tier 6 solar cells for stocking solar banks,,,,,,,,,,,,,
+
+isiBatteryBundle,items,item,,,ISI Infinite Batteries Bundle,,,,,,,,,,,,,
+isiBatteryBundleDescription,items,item,,,An infinite bundle of 6 tier 6 batteries for stocking battery banks,,,,,,,,,,,,,
+
+isiEngineBundle,items,item,,,ISI Infinite Engines Bundle,,,,,,,,,,,,,
+isiEngineBundleDescription,items,item,,,An infinite bundle of 6 engines for stocking generators,,,,,,,,,,,,,
+
+isiElectricityBundle,items,item,,,ISI Electricity Bundle,,,,,,,,,,,,,
+isiElectricityBundleDescription,items,item,,,"A bundle of wiring supplies: wire tool, solar cells, batteries, engines, gas",,,,,,,,,,,,,
+
+isiShotgunShellBundle,items,item,,,ISI Infinite Shotgun Shells Bundle,,,,,,,,,,,,,
+isiShotgunShellBundleDescription,items,item,,,An infinite bundle of 3 stacks of shotgun shells for stocking shotgun turrets,,,,,,,,,,,,,
+
+isiDartBundle,items,item,,,ISI Infinite Darts Bundle,,,,,,,,,,,,,
+isiDartBundleDescription,items,item,,,An infinite bundle of 3 stacks of darts for stocking Dart Traps,,,,,,,,,,,,,
+
+isi9mmBundle,items,item,,,ISI Infinite 9mm Bundle,,,,,,,,,,,,,
+isi9mmBundleDescription,items,item,,,An infinite bundle of 3 stacks of 9mm ammo shells for stocking SMG turrets,,,,,,,,,,,,,
+
 isiHordeNightBundle,items,item,,,ISI Horde Night Bundle,,,,,,,,,,,,,
 isiHordeNightBundleDescription,items,item,,,A bundle of supplies to simplify preparing to test new horde bases,,,,,,,,,,,,,

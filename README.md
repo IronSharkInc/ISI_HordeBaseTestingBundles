@@ -1,6 +1,31 @@
 # ISI Horde Base Testing Bundles
 
-A 7 Days to Die (7D2D) mod that adds some bundles to simplify preparing to test a horde base in dev mode.
+A 7 Days to Die (7D2D) mod that adds bundles that simplify testing horde bases in dev mode.
+
+![Horde Night Bundle](images/isiBundles.png)
+
+## Bundles
+
+- ISI Horde Night Bundle - a collection of bundles that make preparing for horde night easy
+  - XP to get to level 300
+  - Armor Bundle
+    - a set of tier 6 armor with headlight and pocket mods
+  - Melee Weapon Bundle
+    - a tier 6 melee weapon with mods, and perk books
+  - Ranged Weapon Bundle
+    - a tier 6 ranged weapon with mods, perk books, and ammo
+  - Explosives Bundle
+  - Food and Drink Bundle
+  - Meds and Drugs Bundle
+  - Repair Bundle
+- Electricity Bundle
+  - ISI Infinite Solar Cells Bundle
+  - ISI Infinite Batteries Bundle
+  - ISI Infinite Engines Bundle
+- _trap restock bundles (no mega bundle)_
+  - ISI Infinite Darts Bundle - Dart Traps
+  - ISI Infinite 9mm Bundle - SMG Turret
+  - ISI Infinite Shotgun Shells Bundle - Shotgun Turret
 
 ## How to use
 
@@ -11,22 +36,21 @@ The bundles only appear in the creative menu.
 - `u` - Hit `Close` (or hit `ESC`) to close the console, then hit `u` to open the creative menu
 - Search for `isi`
 
+## Screenshots
 ![Horde Night Bundle](images/isiHordeNightBundle.png)
-
-## Bundle Contents
-
-- XP to get to level 300
-- A set of tier 6 armor ![Armor Bundle](images/isiPreacherArmorBundle.png)
-- A melee weapon with mods, and relevant perk books ![Melee Weapon Bundle](images/isiClubBundle.png)
-- A ranged weapon with mods, relevant perk books, and ammo ![Ranged Weapon Bundle](images/isiM60Bundle.png)
-- Explosives ![Explosives Bundle](images/isiExplosivesBundle.png)
-- Food and Drink ![Food and Drinks Bundle](images/isiFoodBundle.png)
-- Meds and Drugs ![Meds and Drugs Bundle](images/isiMedicalBundle.png)
-- Repair supplies ![Repairs Bundle](images/isiRepairBundle.png)
+![Armor Bundle](images/isiPreacherArmorBundle.png)
+![Melee Weapon Bundle](images/isiClubBundle.png)
+![Ranged Weapon Bundle](images/isiM60Bundle.png)
+![Explosives Bundle](images/isiExplosivesBundle.png)
+![Food and Drinks Bundle](images/isiFoodBundle.png)
+![Meds and Drugs Bundle](images/isiMedicalBundle.png)
+![Electricity Bundle](images/isiElectricityBundle.png)
+![Battery Bundle](images/isiBatteryBundle.png)
+![Trap Restock Bundles](images/isiDartBundle.png)
 
 ## Customizing
 
-If you would like to use a different armor, melee weapon, or ranged weapon bundle you can edit the `isiHordeNightBundle` in [items.xml](Config/items.xml).
+If you would like to change the default armor, melee weapon, or ranged weapon bundles you can edit the `isiHordeNightBundle` in [items.xml](Config/items.xml).
 
 For example, if you would like the bundle to include the lumberjack armor instead of the preacher armor, you would just replace `isiPreacherArmorBundle` with `isiLumberjackArmorBundle`
 
