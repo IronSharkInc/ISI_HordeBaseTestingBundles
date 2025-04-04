@@ -1,6 +1,6 @@
 # ISI Horde Base Testing Bundles
 
-A 7 Days to Die (7D2D) mod that adds bundles that simplify testing horde bases in dev mode.
+A 7 Days to Die (7D2D) mod that adds bundles to simplify testing horde bases in creative.
 
 ![Horde Night Bundle](images/isiBundles.png)
 
@@ -37,6 +37,7 @@ The bundles only appear in the creative menu.
 - Search for `isi`
 
 ## Screenshots
+
 ![Horde Night Bundle](images/isiHordeNightBundle.png)
 ![Armor Bundle](images/isiPreacherArmorBundle.png)
 ![Melee Weapon Bundle](images/isiClubBundle.png)
